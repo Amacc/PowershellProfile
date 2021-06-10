@@ -15,7 +15,7 @@ $psVersionSlug = $PSVersionTable.PSVersion |
     ForEach-Object { @($_.Major,$_.Minor) -join "." }
 
 Set-PowerLinePrompt `
-    -colors  "03b2dd", "08c4c1", "95079d", "5158bb" `
+    -colors  "871929 ","dd7540","eee600","00a877","03b2dd", "505291" `
     -PowerLineFont `
     -Prompt @(
         # { Write-VcsStatus }
